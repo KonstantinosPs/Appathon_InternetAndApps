@@ -1,0 +1,36 @@
+img {
+    top:50px;
+  height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+header{
+    
+    display: block;
+    width: 100%;
+    background-color: black;
+    height:120px;
+    color:white;
+
+}
+
+
+ nav{
+     position: absolute;
+     top: 50px; right:20px;
+    }
+
+ ul li{
+     list-style-type: none;
+     display: inline-block;
+     margin-right:15px; 
+     
+         
+ }
+ a.navbar{
+     font-size: 19px;
+     line-height: normal;
+     color:white;
+
+ }
