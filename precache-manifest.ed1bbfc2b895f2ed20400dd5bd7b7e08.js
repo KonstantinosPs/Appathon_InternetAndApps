@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0e42f1a3654ccb7464fef7f6b187c9b",
+    "revision": "0979e53ea2ae0cd084eb782b81c1c061",
     "url": "/Appathon_InternetAndApps/index.html"
   },
   {
-    "revision": "ad206543557e2b3c5e1b",
+    "revision": "b86d67c352d3534273fd",
     "url": "/Appathon_InternetAndApps/static/css/main.48496612.chunk.css"
   },
   {
-    "revision": "255c3ad8c4b108a2d6ec",
-    "url": "/Appathon_InternetAndApps/static/js/2.1136be1b.chunk.js"
+    "revision": "2200a233f0c5c9ce9ccf",
+    "url": "/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Appathon_InternetAndApps/static/js/2.1136be1b.chunk.js.LICENSE.txt"
+    "url": "/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad206543557e2b3c5e1b",
-    "url": "/Appathon_InternetAndApps/static/js/main.041ae555.chunk.js"
+    "revision": "b86d67c352d3534273fd",
+    "url": "/Appathon_InternetAndApps/static/js/main.d60d8431.chunk.js"
   },
   {
     "revision": "7cb1de6a88d5d755fd3c",
