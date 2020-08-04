@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/KonstantinosPs/Appathon_InternetAndApps/static/css/main.b9d478e7.chunk.css",
-    "main.js": "/KonstantinosPs/Appathon_InternetAndApps/static/js/main.abfc5f5a.chunk.js",
-    "main.js.map": "/KonstantinosPs/Appathon_InternetAndApps/static/js/main.abfc5f5a.chunk.js.map",
-    "runtime-main.js": "/KonstantinosPs/Appathon_InternetAndApps/static/js/runtime-main.df10e069.js",
-    "runtime-main.js.map": "/KonstantinosPs/Appathon_InternetAndApps/static/js/runtime-main.df10e069.js.map",
-    "static/js/2.30828ff2.chunk.js": "/KonstantinosPs/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js",
-    "static/js/2.30828ff2.chunk.js.map": "/KonstantinosPs/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js.map",
-    "index.html": "/KonstantinosPs/Appathon_InternetAndApps/index.html",
-    "precache-manifest.48b66b9a95dacfd0c50b23bd341639bf.js": "/KonstantinosPs/Appathon_InternetAndApps/precache-manifest.48b66b9a95dacfd0c50b23bd341639bf.js",
-    "service-worker.js": "/KonstantinosPs/Appathon_InternetAndApps/service-worker.js",
-    "static/css/main.b9d478e7.chunk.css.map": "/KonstantinosPs/Appathon_InternetAndApps/static/css/main.b9d478e7.chunk.css.map",
-    "static/js/2.30828ff2.chunk.js.LICENSE.txt": "/KonstantinosPs/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js.LICENSE.txt"
+    "main.css": "/Appathon_InternetAndApps/static/css/main.48496612.chunk.css",
+    "main.js": "/Appathon_InternetAndApps/static/js/main.041ae555.chunk.js",
+    "main.js.map": "/Appathon_InternetAndApps/static/js/main.041ae555.chunk.js.map",
+    "runtime-main.js": "/Appathon_InternetAndApps/static/js/runtime-main.b432538c.js",
+    "runtime-main.js.map": "/Appathon_InternetAndApps/static/js/runtime-main.b432538c.js.map",
+    "static/js/2.1136be1b.chunk.js": "/Appathon_InternetAndApps/static/js/2.1136be1b.chunk.js",
+    "static/js/2.1136be1b.chunk.js.map": "/Appathon_InternetAndApps/static/js/2.1136be1b.chunk.js.map",
+    "index.html": "/Appathon_InternetAndApps/index.html",
+    "precache-manifest.eb1229bea7173f02dd18079c9c02073d.js": "/Appathon_InternetAndApps/precache-manifest.eb1229bea7173f02dd18079c9c02073d.js",
+    "service-worker.js": "/Appathon_InternetAndApps/service-worker.js",
+    "static/css/main.48496612.chunk.css.map": "/Appathon_InternetAndApps/static/css/main.48496612.chunk.css.map",
+    "static/js/2.1136be1b.chunk.js.LICENSE.txt": "/Appathon_InternetAndApps/static/js/2.1136be1b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.df10e069.js",
-    "static/js/2.30828ff2.chunk.js",
-    "static/css/main.b9d478e7.chunk.css",
-    "static/js/main.abfc5f5a.chunk.js"
+    "static/js/runtime-main.b432538c.js",
+    "static/js/2.1136be1b.chunk.js",
+    "static/css/main.48496612.chunk.css",
+    "static/js/main.041ae555.chunk.js"
   ]
 }
