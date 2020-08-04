@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Appathon_InternetAndApps/static/css/main.48496612.chunk.css",
-    "main.js": "/Appathon_InternetAndApps/static/js/main.d60d8431.chunk.js",
-    "main.js.map": "/Appathon_InternetAndApps/static/js/main.d60d8431.chunk.js.map",
+    "main.css": "/Appathon_InternetAndApps/static/css/main.5728cbbd.chunk.css",
+    "main.js": "/Appathon_InternetAndApps/static/js/main.eed09dad.chunk.js",
+    "main.js.map": "/Appathon_InternetAndApps/static/js/main.eed09dad.chunk.js.map",
     "runtime-main.js": "/Appathon_InternetAndApps/static/js/runtime-main.b432538c.js",
     "runtime-main.js.map": "/Appathon_InternetAndApps/static/js/runtime-main.b432538c.js.map",
-    "static/js/2.30828ff2.chunk.js": "/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js",
-    "static/js/2.30828ff2.chunk.js.map": "/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js.map",
+    "static/js/2.ce112c5f.chunk.js": "/Appathon_InternetAndApps/static/js/2.ce112c5f.chunk.js",
+    "static/js/2.ce112c5f.chunk.js.map": "/Appathon_InternetAndApps/static/js/2.ce112c5f.chunk.js.map",
     "index.html": "/Appathon_InternetAndApps/index.html",
-    "precache-manifest.ed1bbfc2b895f2ed20400dd5bd7b7e08.js": "/Appathon_InternetAndApps/precache-manifest.ed1bbfc2b895f2ed20400dd5bd7b7e08.js",
+    "precache-manifest.5dd6089659323aec474fc26a50ec91b9.js": "/Appathon_InternetAndApps/precache-manifest.5dd6089659323aec474fc26a50ec91b9.js",
     "service-worker.js": "/Appathon_InternetAndApps/service-worker.js",
-    "static/css/main.48496612.chunk.css.map": "/Appathon_InternetAndApps/static/css/main.48496612.chunk.css.map",
-    "static/js/2.30828ff2.chunk.js.LICENSE.txt": "/Appathon_InternetAndApps/static/js/2.30828ff2.chunk.js.LICENSE.txt"
+    "static/css/main.5728cbbd.chunk.css.map": "/Appathon_InternetAndApps/static/css/main.5728cbbd.chunk.css.map",
+    "static/js/2.ce112c5f.chunk.js.LICENSE.txt": "/Appathon_InternetAndApps/static/js/2.ce112c5f.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/Appathon_InternetAndApps/static/media/logo.539bbb34.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b432538c.js",
-    "static/js/2.30828ff2.chunk.js",
-    "static/css/main.48496612.chunk.css",
-    "static/js/main.d60d8431.chunk.js"
+    "static/js/2.ce112c5f.chunk.js",
+    "static/css/main.5728cbbd.chunk.css",
+    "static/js/main.eed09dad.chunk.js"
   ]
 }
