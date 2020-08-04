@@ -1,3 +1,5 @@
+## Installation Instructions
+
 1)install node.js
 2)npm i --dev--save react-router-dom
 3)npm i --save @fortawesome/fontawesome-svg-core
