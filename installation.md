@@ -17,4 +17,6 @@ npm i --save @fortawesome/react-fontawesome
 
 npm i --save @fortawesome/free-brands-svg-icons
 
-4)Εφόσον τελειώσει η εγκατάσταση όλων των βιβλιοθηκών εκκινούμε την εφαρμογή μας πληκτρολογώντας npm start
+4)Εφόσον τελειώσει η εγκατάσταση όλων των βιβλιοθηκών εκκινούμε την εφαρμογή μας πληκτρολογώντας 
+
+### npm start
