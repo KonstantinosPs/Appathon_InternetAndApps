@@ -5,3 +5,10 @@ h1{
     margin-top: 10px;
     margin-bottom:30px;
 }
+img.poweredBy {
+    
+    height: 400px;
+    position: relative;
+    top: auto;
+    left:350px;
+}
