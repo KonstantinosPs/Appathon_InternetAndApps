@@ -8,6 +8,7 @@
 
 3)Στην συνέχεια εγκαθιστούμε καθεμμία βιβλιοθήκη πληκτρολογώντας τις παρακάτω εντολές ξεχωριστά
 
+npm install react-bootstrap bootstrap
 
 npm i --dev--save react-router-dom
 
