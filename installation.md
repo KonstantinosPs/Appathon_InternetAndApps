@@ -9,19 +9,19 @@
 3) Στην συνέχεια εγκαθιστούμε καθεμμία βιβλιοθήκη πληκτρολογώντας τις παρακάτω εντολές ξεχωριστά
 
 
-npm i --dev--save react-router-dom
+          npm i --dev--save react-router-dom
 
-npm i --save @fortawesome/fontawesome-svg-core
+          npm i --save @fortawesome/fontawesome-svg-core
 
-npm i --save @fortawesome/react-fontawesome
+          npm i --save @fortawesome/react-fontawesome
 
-npm i --save @fortawesome/free-brands-svg-icons
+          npm i --save @fortawesome/free-brands-svg-icons
 
-npm install --save google-maps-react
+          npm install --save google-maps-react
 
-npm install --save react-geocode
+          npm install --save react-geocode
 
-npm install jquery
+          npm install jquery
 
 4) Εφόσον τελειώσει η εγκατάσταση όλων των βιβλιοθηκών εκκινούμε την εφαρμογή μας πληκτρολογώντας npm start
 
