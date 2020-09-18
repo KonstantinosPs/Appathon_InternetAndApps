@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Resultpage from '../pages/resultPage';
+import $ from 'jquery';
 
 
 class SearchForm extends Component {
@@ -21,27 +22,54 @@ class SearchForm extends Component {
     handleSubmit = (event) => {
         event.preventDefault()
         const data = this.state
+        var self = this
         if(data.disease !== "" && data.dateFrom !== null && data.dateTo !== null){
             var site = 'https://clinicaltrials.gov/api/query/study_fields?expr='+ this.state.disease +'%20AND%20AREA[StartDate]RANGE['+this.state.dateFrom+',MAX]%20AND%20AREA[CompletionDate]RANGE[MIN,'+this.state.dateTo+']&fields=LocationCountry,StartDate,CompletionDate&fmt=json&max_rnk=1000'
             this.setState({
                 url:site,    
             });
-          // console.log(site) na checkarw t site
-            fetch(site)
-                .then(res => res.json())
-                .then(json =>{
-                    this.setState({
-                        isLoaded:true,
-                        items:json.StudyFieldsResponse.StudyFields,
-                    })
+             let ajaxResult=[];
+            $(document).ready(function(){
+            $.ajax({
+                type: "POST",
+                async: true,
+                url: "http://localhost:8080/AppathonServlet/JsonServlet",
+                data: {
+                    reqValue:site
+                },
+                success: function(response) {
+                   console.log("Hello There")
+                   self.setState({
+                    isLoaded:true,
+                    items:response.StudyFieldsResponse.StudyFields,
                 })
-                        }      
+                
+                 },  
+                error: function(e){
+                    alert('An error occured: ' + e);
+                  }
+                  
+            });
+        });
+        
+    }
+        // console.log(site) na checkarw t site
+        //  Αντικαταστάθηκε από το jquery στο Java Servlet που δημιούργησα για 
+        // το fetch των json data από το clinical trials.
+            // fetch(site)
+            //     .then(res => res.json())
+            //     .then(json =>{
+            //         this.setState({
+            //             isLoaded:true,
+            //             items:json.StudyFieldsResponse.StudyFields,
+            //         })
+            //     })      
         else {
             alert("Παρακαλώ συμπληρώστε όλα τα πεδία της φόρμας για να ολοκληρωθεί η αναζήτηση!");
         
         }
     }
-    
+
           handleInputChange = (event) => {
             this.setState({
                 [event.target.name]:event.target.value
@@ -91,7 +119,7 @@ class SearchForm extends Component {
                 
                                         
             
-            })
+                })
 
                 return(
                 <Resultpage countries={locationcntry} studies={nrofstudies}/>   
