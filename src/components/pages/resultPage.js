@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Table from 'react-bootstrap/Table';
-
+import Map from '../mapComponent/map';
 class Resultpage extends Component {
-    
+ 
   sortByNrOfStudies(){
 
       var y = this.props.studies;
@@ -23,6 +23,8 @@ class Resultpage extends Component {
       }
       return [x,y]
     }
+
+
         render() {
           const locationcountries = this.props.countries;
           const nrofstudies = this.props.studies;
@@ -49,7 +51,9 @@ class Resultpage extends Component {
         ))};  
     </tbody>
 </Table>
-     
+<h4>Απεικόνιση των παραπάνω χωρών με τις αντίστοιχες μελέτες πάνω στο χάρτη:</h4>
+<Map countries={locationcountries} studies={nrofstudies} />
+      
       </div>
     
 
