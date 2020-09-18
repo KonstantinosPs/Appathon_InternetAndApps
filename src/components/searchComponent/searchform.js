@@ -33,7 +33,7 @@ class SearchForm extends Component {
             $.ajax({
                 type: "POST",
                 async: true,
-                url: "http://localhost:8080/AppathonServlet/JsonServlet",
+                url: "http://localhost:8080/Appathon_InternetAndApps-master2/JsonServlet",
                 data: {
                     reqValue:site
                 },
