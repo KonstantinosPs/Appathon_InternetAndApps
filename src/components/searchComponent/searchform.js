@@ -38,7 +38,6 @@ class SearchForm extends Component {
                     reqValue:site
                 },
                 success: function(response) {
-                   console.log("Hello There")
                    self.setState({
                     isLoaded:true,
                     items:response.StudyFieldsResponse.StudyFields,
