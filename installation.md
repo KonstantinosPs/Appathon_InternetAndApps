@@ -23,7 +23,6 @@ npm install --save react-geocode
 
 npm install jquery
 
-
 4) Εφόσον τελειώσει η εγκατάσταση όλων των βιβλιοθηκών εκκινούμε την εφαρμογή μας πληκτρολογώντας npm start
 
 5) Ανοίγουμε το Eclipse και φορτώνουμε το Java(Servlet) ως εξής File->Open Projects from File System-> και επιλέγουμε το project που κατεβάσαμε απο το github "AppathonServlet".
