@@ -21,7 +21,7 @@ class SocialConnect extends Component {
                 <a href="https://www.facebook.com/konstantinos.psyxogios"
                 className="facebook-social"><FontAwesomeIcon icon={faFacebook} size="2x"/>
                 </a>
-                <a href="https://www.youtube.com/watch?v=96_ITGqN438&feature=youtu.be"
+                <a href="https://www.youtube.com/watch?v=3PImEO2L4mY&feature=youtu.be"
                 className="youtube-social"><FontAwesomeIcon icon={faYoutube} size="2x"/>
 
                 </a>
